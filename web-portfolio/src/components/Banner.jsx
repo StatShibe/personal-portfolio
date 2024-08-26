@@ -10,7 +10,7 @@ import { fadeIn } from "../variants";
 
 const Banner = () => {
   return (
-    <section className="section" id="home">
+    <section className="min-h-[85vh] lg:min-h-[78vh] flex items-center" id="home">
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           {/* Text */}
@@ -56,7 +56,7 @@ const Banner = () => {
                   <FaDribbble/>
                 </a>
               </div>
-          <div>
+          <div className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]">
             <img src={Image} alt="Profile Image"></img>
           </div>
         </div>
