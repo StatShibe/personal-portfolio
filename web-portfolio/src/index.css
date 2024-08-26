@@ -41,6 +41,28 @@
 }
 
 @layer base {
+  @font-face {
+    font-family: 'Aldrich';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./assets/fonts/Aldrich-Regular.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./assets/fonts/Orbitron-Regular.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./assets/fonts/Rajdhani-Regular.ttf) format('truetype');
+  }
+
   body {
     @apply font-secondary text-lg leading-8 text-white;
   }
