@@ -2,7 +2,7 @@ import React from "react";
 
 import Image from "../assets/saitama.png";
 
-import { FaGithub, FaYoutube, FaDribbble } from "react-icons/fa";
+import { FaGithub,FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
@@ -35,7 +35,7 @@ const Banner = () => {
 							/>
 						</motion.div>
 						<motion.p variants={fadeIn('up',0.5)} initial = "hidden" whileInView={'show'} viewport={{once: false, amount: 0.7}} className="mb-8 max-w-lg mx-auto lg:mx-0" >
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							An Idiot admires complexity, a genius admires simplicity.
 							</motion.p>
 							<motion.div variants={fadeIn('up',0.6)} initial = "hidden" whileInView={'show'} viewport={{once: false, amount: 0.7}} className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
 								<button className="btn btn-lg">Contact Me</button>
@@ -45,14 +45,11 @@ const Banner = () => {
 							</motion.div>
 							{/* Socials */}
 							<motion.div variants={fadeIn('up',0.5)} initial = "hidden" whileInView={'show'} viewport={{once: false, amount: 0.7}} className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
-								<a href="#">
-									<FaYoutube/>
-								</a>
-								<a href="#">
+								<a href="https://github.com/StatShibe">
 									<FaGithub/>
 								</a>
-								<a href="#">
-									<FaDribbble/>
+								<a href="https://www.linkedin.com/in/hareshmoorthy/">
+									<FaLinkedin/>
 								</a>
 							</motion.div>
 					</div>

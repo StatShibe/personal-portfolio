@@ -6,28 +6,19 @@ import { fadeIn } from "../variants";
 
 const services = [
   {
-    name: "UI/UX Design",
+    name: "Web Development",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    link: "Learn more",
   },
   {
-    name: "Developer",
+    name: "Artificial Intelligence",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    link: "Learn more",
   },
   {
-    name: "Digital Marketing",
+    name: "Data Analytics",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    link: "Learn more",
-  },
-  {
-    name: "Product Branding",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    link: "Learn more",
   },
 ];
 
@@ -41,12 +32,11 @@ const Services = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0"
+            className="flex-1  mix-blend-lighten mb-12 lg:mb-0"
           >
             <h2 className="h2 text-accent mb-6">What I Do.</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              I'm a Freelance Front-end Developer with over 5 years of
-              experience.
+            I'm a Junior Developer stepping into the world of Information Technology.
             </h3>
             <button className="btn btn-sm">See my work</button>
           </motion.div>
@@ -59,7 +49,7 @@ const Services = () => {
           >
             <div>
               {services.map((service, index) => {
-                const { name, description, link } = service;
+                const { name, description} = service;
                 return (
                   <div
                     className="border-b border-white/20 h-[146px] mb-[30px] flex"
@@ -73,7 +63,6 @@ const Services = () => {
                         {description}
                       </p>
                     </div>
-                    <div>links</div>
                   </div>
                 );
               })}
