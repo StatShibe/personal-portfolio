@@ -8,17 +8,17 @@ const services = [
   {
     name: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Specialise in building interactive and robust web applications using a variety of technologies which include React JS, Node, Express, Postgresql, MongoDB, Flask etc.",
   },
   {
     name: "Artificial Intelligence",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Building powerful and accurate machine learning models to model relationships between data and use them for various problems.",
   },
   {
     name: "Data Analytics",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Creating comprehensive reports using data insight and business domain to deliver analytical services that help people make important decisions.",
   },
 ];
 
@@ -34,7 +34,7 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1  mix-blend-lighten mb-12 lg:mb-0"
           >
-            <h2 className="h2 text-accent mb-6">What I Do.</h2>
+            <h2 className="h2 text-sky-400 mb-6">What I Do.</h2>
             <h3 className="h3 max-w-[455px] mb-16">
             I'm a Junior Developer stepping into the world of Information Technology.
             </h3>

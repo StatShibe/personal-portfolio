@@ -18,23 +18,23 @@ const Work = () => {
                     className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0"
                 >
                     <div>
-                        <h2 className="h2 leading-tight text-accent">
+                        <h2 className="h2 leading-tight text-sky-400">
                             My Latest <br/> 
                             Work.
                         </h2>
                         <p className="max-w-sm mb-16">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        My works mainly involve web development using React JS and various machine learning and Gen AI projects.
                         </p>
-                        <button className="btn btn-sm">View all projects</button>
+                        <button className="btn btn-sm"><a href = "https://github.com/StatShibe?tab=repositories">View all projects</a></button>
                     </div>
                     <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
                         <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
                         <img className= "group-hover:scale-125 transition-all duration-500"src={Img1}alt=""/>
                         <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                            <span className="text-gradient">UI/UX Design</span>
+                            <span className="text-gradient">Machine Learning</span>
                         </div>
                         <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                            <span className="text-3xl text-white">Project Title</span>
+                            <span className="text-3xl text-white">Customer Segmentation</span>
                         </div>
                     </div>
 
@@ -50,20 +50,20 @@ const Work = () => {
                         <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
                         <img className= "group-hover:scale-125 transition-all duration-500"src={Img2}alt=""/>
                         <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                            <span className="text-gradient">UI/UX Design</span>
+                            <span className="text-gradient">Full Stack Web Application</span>
                         </div>
                         <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                            <span className="text-3xl text-white">Project Title</span>
+                            <span className="text-3xl text-white">Healthcare Analytics</span>
                         </div>
                     </div>
                     <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
                         <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
                         <img className= "group-hover:scale-125 transition-all duration-500"src={Img3}alt=""/>
                         <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                            <span className="text-gradient">UI/UX Design</span>
+                            <span className="text-gradient">Generative AI</span>
                         </div>
                         <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                            <span className="text-3xl text-white">Project Title</span>
+                            <span className="text-3xl text-white">Exam Preparation Chatbot using RAG</span>
                         </div>
                     </div>
                 </motion.div>
