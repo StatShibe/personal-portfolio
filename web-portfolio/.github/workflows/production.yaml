@@ -15,6 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: changing folder
+        run: cd web-portfolio
+
       - name: Install Vercel CLI
         run: npm install --global vercel
 
