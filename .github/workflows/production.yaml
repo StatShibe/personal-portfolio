@@ -20,10 +20,13 @@ jobs:
         run: npm install --global vercel
 
       - name: Pull Vercel Environment Information
+        working-directory: ./web-portfolio
         run: vercel pull --yes --environment=production --token=${{secrets.VERCEL_TOKEN}}
 
       - name: Pull Projects Artifacts
+        working-directory: ./web-portfolio
         run: vercel build --prod --token=${{secrets.VERCEL_TOKEN}}
 
       - name: Deploy Project Artifacts
+        working-directory: ./web-portfolio
         run: vercel deploy --prebuilt --prod --token=${{secrets.VERCEL_TOKEN}}
